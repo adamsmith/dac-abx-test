@@ -32,7 +32,7 @@ Before starting your AB test, you need to make sure the volume coming from each 
 
 Running this code should be very straightforward. `pip install pyhid_usb_relay` and then run the included Python script.
 
-The code is currently configured to do ten rounds. In each round, DACs will be assigned "X" or "Y" randomly. You can press "Enter" to toggle between them as many times as you'd like as you play music, and when you've decided which you like best, just press "X" or "Y" (or "x" / "y") and then Enter to move onto the next round. Which DAC is "X" and which is "Y" changes from session to session.
+The code is currently configured to do ten rounds. At the start of each round, DACs will be assigned "X" or "Y" randomly. You can press "Enter" to toggle between them as many times as you'd like as you play music, and when you've decided which you like best, just press "X" or "Y" (or "x" / "y") and then Enter to move onto the next round. Which DAC is "X" and which is "Y" changes from round to round.
 
 (This is slightly different from the UX of a typical ABX test. I think it's a little simpler and more intuitive.)
 
