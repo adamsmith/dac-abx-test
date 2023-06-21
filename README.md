@@ -2,7 +2,7 @@
 AB test two DACs to see if you can tell the difference
 
 
-## Hardware
+## Main hardware setup
 This code uses the Python `pyhid_usb_relay` package to control a relay board that routes sound from your DACs to your headphones. You need a 4-channel relay that exposes an HID interface. This was only tested on macOS but should work on other operating systems, too.
 
 I used [this relay](https://www.amazon.com/gp/product/B08CS9MMD6/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1) with [these stereo connectors](https://www.amazon.com/gp/product/B0BRCSZ82D/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1), though it's not hard to find a number of similar options. Some quick notes:
@@ -24,6 +24,8 @@ Before starting your AB test, you need to make sure the volume coming from each 
 - Choose a volume level you like using one of the DACs
 - Play a sine wave from your computer (in macOS, `play -n synth sin 440 sin 440 channels 2`)
 - Put a ~300 ohm resistor between ground and one of the channel wires on a stereo plug, and measure the voltage drop across it with a multimeter. Move it to the other DAC and adjust its volume to match that voltage.
+
+<img src="volume_measurement.jpeg" width="200">
 
 
 ## Software
