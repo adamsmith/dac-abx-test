@@ -1,5 +1,5 @@
 # dac-abx-test
-AB test two DACs to see if you can tell the difference
+AB test two DACs or headphone amplifiers to see if you can tell the difference, and/or which one you truly prefer
 
 
 ## Main hardware setup
