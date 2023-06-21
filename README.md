@@ -15,6 +15,17 @@ I used [this relay](https://www.amazon.com/gp/product/B08CS9MMD6/ref=ppx_yo_dt_b
 <img src="relay.jpeg" width="400">
 
 
+## One last step before the fun begins!
+
+Before starting your AB test, you need to make sure the volume coming from each DAC is the same. To do this:
+
+- Plug both DACs into your computer via USB
+- Set up your computer to output sound to both devices at the same time (in macOS, use Audio MIDI Setup — Google for instructions)
+- Choose a volume level you like using one of the DACs
+- Play a sine wave from your computer (in macOS, `play -n synth sin 440 sin 440 channels 2`)
+- Put a ~300 ohm resistor between ground and one of the channel wires on a stereo plug, and measure the voltage drop across it with a multimeter. Move it to the other DAC and adjust its volume to match that voltage.
+
+
 ## Software
 
 Running this code should be very straightforward. `pip install pyhid_usb_relay` and then run the included Python script.
