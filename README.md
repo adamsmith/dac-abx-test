@@ -10,7 +10,7 @@ I used [this relay](https://www.amazon.com/gp/product/B08CS9MMD6/ref=ppx_yo_dt_b
 - The relay I bought appeared to work without external power, but did not switch the relays correctly. Although the Amazon listing said 5V, my board needed 12V to get it to function correctly. I found it helpful to use a multimeter to test for relay switching.
 - I taped over the status LEDs of the relay so I could not see which DAC I was listening to if I looked.
 - When putting the wires into the relay, put the ground wire in the center relay and cut its length slightly since the distance to the center relay is lower than the distance to the outer relays.
-- As you can see I used hot glue to help everything stay in place. Make sure the exposed ground wires to not short.
+- As you can see I used hot glue to help everything stay in place. Make sure the exposed ground wires do not short.
 
 <img src="relay.jpeg" width="400">
 
