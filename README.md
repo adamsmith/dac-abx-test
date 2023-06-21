@@ -12,7 +12,7 @@ I used [this relay](https://www.amazon.com/gp/product/B08CS9MMD6/ref=ppx_yo_dt_b
 - When putting the wires into the relay, put the ground wire in the center relay and cut its length slightly since the distance to the center relay is lower than the distance to the outer relays.
 - As you can see I used hot glue to help everything stay in place. Make sure the exposed ground wires to not short.
 
-![relay](relay.jpeg)
+<img src="relay.jpeg" width="400">
 
 
 ## Software
